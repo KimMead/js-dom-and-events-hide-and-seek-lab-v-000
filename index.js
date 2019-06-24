@@ -11,7 +11,7 @@ function deepestChild() {
   let childNode = node.children[0]
 
   while(childNode) {
-    node = childNode 
+    node = childNode
     childNode = node.children[0];
   }
   return node;
